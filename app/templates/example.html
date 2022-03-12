@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <h1>{{ title }}</h1>
+    <ul>
+        {% for element in list: %}
+        <li>{{ element }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
